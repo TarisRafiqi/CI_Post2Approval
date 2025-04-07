@@ -7,20 +7,20 @@ Fitur-fitur
 
 1. Authentication & Authorization
 
-- User Registration & Login
-- Role-Based Access Control (RBAC)
-- Session-based login management
+   - User Registration & Login
+   - Role-Based Access Control (RBAC)
+   - Session-based login management
 
 2. User Management
 
-- Update profil (nama, username, email)
+   - Update profil (nama, username, email)
 
 3. Post Management & Approval Workflow
 
-- CRUD Postingan
-- Status postingan: Draft, Waiting Approval, Need Revision, Rejected, Approved
-- Dua tahap approval oleh Approver dan Admin
+   - CRUD Postingan
+   - Status postingan: Draft, Waiting Approval, Need Revision, Rejected, Approved
+   - Dua tahap approval oleh Approver dan Admin
 
 4. Notifikasi
 
-- Flash Message untuk Error & Success
+   - Flash Message untuk Error & Success
