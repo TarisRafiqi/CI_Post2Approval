@@ -1,0 +1,52 @@
+CRITICAL - 2025-04-03 14:22:06 --> Error: Call to a member function select() on null
+[Method: GET, Route: admin/users_info]
+in APPPATH\Models\UsersModel.php on line 17.
+ 1 APPPATH\Controllers\admin\UsersController.php(25): App\Models\UsersModel->getAllUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-03 14:49:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/users_info.php"
+[Method: GET, Route: admin/users_info]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users_info.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/users_info', [], true)
+ 3 APPPATH\Controllers\admin\UsersController.php(24): view('admin/users_info', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-03 15:05:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/users_detail_info.php"
+[Method: GET, Route: admin/users_info/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users_detail_info.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/users_detail_info', [], true)
+ 3 APPPATH\Controllers\admin\UsersController.php(34): view('admin/users_detail_info', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->detail('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-03 15:09:07 --> ErrorException: Undefined variable $user
+[Method: GET, Route: admin/user_detail_info/3]
+in APPPATH\Views\admin\user_detail_info.php on line 15.
+ 1 APPPATH\Views\admin\user_detail_info.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\user_detail_info.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\user_detail_info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/user_detail_info', [], true)
+ 5 APPPATH\Controllers\admin\UsersController.php(34): view('admin/user_detail_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')

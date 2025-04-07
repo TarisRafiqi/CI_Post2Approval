@@ -1,0 +1,60 @@
+CRITICAL - 2025-03-17 05:46:22 --> ErrorException: Undefined variable $tes
+[Method: GET, Route: about]
+in APPPATH\Views\about.php on line 9.
+ 1 APPPATH\Views\about.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tes', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('about', [], true)
+ 5 APPPATH\Controllers\AboutController.php(14): view('about')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AboutController->about()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-17 05:47:07 --> ErrorException: Undefined variable $tes
+[Method: GET, Route: about]
+in APPPATH\Views\about.php on line 9.
+ 1 APPPATH\Views\about.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tes', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('about', [], true)
+ 5 APPPATH\Controllers\AboutController.php(14): view('about')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AboutController->about()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-17 05:47:09 --> ErrorException: Undefined variable $tes
+[Method: GET, Route: about]
+in APPPATH\Views\about.php on line 9.
+ 1 APPPATH\Views\about.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tes', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('about', [], true)
+ 5 APPPATH\Controllers\AboutController.php(14): view('about')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AboutController->about()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-17 05:51:53 --> ErrorException: Undefined variable $data
+[Method: GET, Route: about]
+in APPPATH\Views\about.php on line 8.
+ 1 APPPATH\Views\about.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('about', [], true)
+ 5 APPPATH\Controllers\AboutController.php(14): view('about', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AboutController->about()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')

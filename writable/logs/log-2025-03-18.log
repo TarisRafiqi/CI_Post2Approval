@@ -1,0 +1,20 @@
+CRITICAL - 2025-03-18 10:21:54 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: about]
+in APPPATH\Controllers\Posts.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Posts->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-18 10:22:27 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: about]
+in APPPATH\Controllers\Posts.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Posts->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')

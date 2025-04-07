@@ -1,0 +1,37 @@
+CRITICAL - 2025-04-05 12:45:39 --> ErrorException: Undefined array key 0
+[Method: POST, Route: writer/posts/action/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Controllers\writer\PostsController.php on line 93.
+ 1 APPPATH\Controllers\writer\PostsController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\ci_2Approval\\app\\Controllers\\writer\\PostsController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->submitRevision('cara-menerapkan-filter-berdasarkan-user-id')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-05 13:02:13 --> ErrorException: Undefined variable $status1
+[Method: POST, Route: writer/posts/action/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Controllers\writer\PostsController.php on line 109.
+ 1 APPPATH\Controllers\writer\PostsController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status1', 'C:\\laragon\\www\\ci_2Approval\\app\\Controllers\\writer\\PostsController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->submitRevision('cara-menerapkan-filter-berdasarkan-user-id')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-05 13:46:19 --> ErrorException: Undefined variable $approver1
+[Method: GET, Route: approver/posts/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Views\approver\post.php on line 98.
+ 1 APPPATH\Views\approver\post.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $approver1', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\approver\\post.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\approver\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('approver/post', [], true)
+ 5 APPPATH\Controllers\approver\PostsController.php(54): view('approver/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\approver\PostsController->detail('cara-menerapkan-filter-berdasarkan-user-id')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\approver\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')

@@ -1,0 +1,197 @@
+CRITICAL - 2025-04-04 13:38:02 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/user_detail_info/3]
+in APPPATH\Views\admin\user_detail_info.php on line 11.
+ 1 APPPATH\Views\admin\user_detail_info.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\user_detail_info.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\user_detail_info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/user_detail_info', [], true)
+ 5 APPPATH\Controllers\admin\UsersController.php(34): view('admin/user_detail_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 13:51:08 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, false given, called in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Controller.php on line 182
+[Method: POST, Route: admin/updateUserDetail/3]
+in SYSTEMPATH\Validation\Validation.php on line 588.
+ 1 SYSTEMPATH\Controller.php(182): CodeIgniter\Validation\Validation->setRules(false, [])
+ 2 SYSTEMPATH\Controller.php(136): CodeIgniter\Controller->setValidator(false, [])
+ 3 APPPATH\Controllers\admin\UsersController.php(47): CodeIgniter\Controller->validate(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->updateUserDetail('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 13:51:12 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, false given, called in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Controller.php on line 182
+[Method: POST, Route: admin/updateUserDetail/3]
+in SYSTEMPATH\Validation\Validation.php on line 588.
+ 1 SYSTEMPATH\Controller.php(182): CodeIgniter\Validation\Validation->setRules(false, [])
+ 2 SYSTEMPATH\Controller.php(136): CodeIgniter\Controller->setValidator(false, [])
+ 3 APPPATH\Controllers\admin\UsersController.php(47): CodeIgniter\Controller->validate(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->updateUserDetail('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:23:44 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/user_detail_info/3]
+in APPPATH\Views\components\notification.php on line 12.
+ 1 APPPATH\Views\components\notification.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\components\\notification.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\components\\notification.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('components/notification', [], true)
+ 5 APPPATH\Views\admin\user_detail_info.php(7): view('components/notification')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\user_detail_info.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/user_detail_info', [], true)
+ 9 APPPATH\Controllers\admin\UsersController.php(34): view('admin/user_detail_info', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\UsersController->detail('3')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\UsersController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:29:49 --> ErrorException: Undefined array key "progress"
+[Method: GET, Route: writer/posts]
+in APPPATH\Views\writer\posts.php on line 35.
+ 1 APPPATH\Views\writer\posts.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "progress"', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\writer\\posts.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\writer\\posts.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/posts', [], true)
+ 5 APPPATH\Controllers\writer\PostsController.php(33): view('writer/posts', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:31:01 --> ErrorException: Undefined variable $oriStatus
+[Method: GET, Route: writer/posts]
+in APPPATH\Controllers\writer\PostsController.php on line 25.
+ 1 APPPATH\Controllers\writer\PostsController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $oriStatus', 'C:\\laragon\\www\\ci_2Approval\\app\\Controllers\\writer\\PostsController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:31:22 --> ErrorException: Undefined variable $post_status
+[Method: GET, Route: writer/posts]
+in APPPATH\Controllers\writer\PostsController.php on line 25.
+ 1 APPPATH\Controllers\writer\PostsController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post_status', 'C:\\laragon\\www\\ci_2Approval\\app\\Controllers\\writer\\PostsController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:31:23 --> ErrorException: Undefined variable $post_status
+[Method: GET, Route: writer/posts]
+in APPPATH\Controllers\writer\PostsController.php on line 25.
+ 1 APPPATH\Controllers\writer\PostsController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post_status', 'C:\\laragon\\www\\ci_2Approval\\app\\Controllers\\writer\\PostsController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+ERROR - 2025-04-04 14:40:13 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\ci_2Approval\app\Controllers\writer\PostsController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+#8 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+#9 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\ci_2Approval\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2025-04-04 14:40:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: GET, Route: writer/posts]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `user_id` = :user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\writer\PostsController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:40:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `user_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `user_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `user_id` = :user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\writer\PostsController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 14:40:13 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `posts`
+WHERE `user_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `user_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `user_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\writer\PostsController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-04-04 15:28:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: writer/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Controllers\writer\PostsController.php on line 63.
+ 1 APPPATH\Controllers\writer\PostsController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'C:\\laragon\\www\\ci_2Approval\\app\\Controllers\\writer\\PostsController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\PostsController->detail('tutorial-codeigniter-4-untuk-pemula')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\PostsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')

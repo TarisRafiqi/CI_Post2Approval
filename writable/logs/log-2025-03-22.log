@@ -1,0 +1,390 @@
+CRITICAL - 2025-03-22 03:29:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/PostsDetail.php"
+[Method: GET, Route: admin/posts/fungsi-dan-kegunaan-slug]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/PostsDetail.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/PostsDetail', [], true)
+ 3 APPPATH\Controllers\admin\Posts.php(37): view('admin/PostsDetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('fungsi-dan-kegunaan-slug')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:29:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/postss.php"
+[Method: GET, Route: admin/posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/postss.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/postss', [], true)
+ 3 APPPATH\Controllers\admin\Posts.php(27): view('admin/postss', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:32:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/PostsDetail.php"
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/PostsDetail.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/PostsDetail', [], true)
+ 3 APPPATH\Controllers\admin\Posts.php(37): view('admin/PostsDetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:34:14 --> ErrorException: Undefined variable $post
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:34:21 --> ErrorException: Undefined variable $post
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:35:24 --> ErrorException: Undefined array key "judul"
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:35:34 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:36:18 --> ErrorException: Undefined array key "judul"
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 03:36:19 --> ErrorException: Undefined array key "judul"
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 04:04:32 --> ErrorException: Undefined array key "uid_approver_1"
+[Method: GET, Route: admin/posts/tutorial-codeigniter-4-untuk-pemula]
+in APPPATH\Views\admin\post.php on line 21.
+ 1 APPPATH\Views\admin\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid_approver_1"', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(37): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('tutorial-codeigniter-4-untuk-pemula')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:11:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "why-is-technology-important-in-today's-world"
+[Method: GET, Route: admin/posts/why-is-technology-important-in-today%27s-world]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('admin/posts/why-is-technology-important-in-today\'s-world')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('admin/posts/why-is-technology-important-in-today\'s-world')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:11:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "a-beginner's-guide-to-understanding-technology"
+[Method: GET, Route: admin/posts/a-beginner%27s-guide-to-understanding-technology]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('admin/posts/a-beginner\'s-guide-to-understanding-technology')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('admin/posts/a-beginner\'s-guide-to-understanding-technology')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:11:26 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "a-beginner's-guide-to-understanding-technology"
+[Method: GET, Route: admin/posts/a-beginner%27s-guide-to-understanding-technology]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('admin/posts/a-beginner\'s-guide-to-understanding-technology')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('admin/posts/a-beginner\'s-guide-to-understanding-technology')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:11:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "why-is-technology-important-in-today's-world"
+[Method: GET, Route: admin/posts/why-is-technology-important-in-today%27s-world]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('admin/posts/why-is-technology-important-in-today\'s-world')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('admin/posts/why-is-technology-important-in-today\'s-world')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:12:20 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: admin/posts/why-is-technology-important-in-todays-world]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\Posts.php(43): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Posts->detail('why-is-technology-important-in-todays-world')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:19:27 --> ErrorException: Undefined variable $post
+[Method: GET, Route: writer/posts]
+in APPPATH\Views\writer\posts.php on line 8.
+ 1 APPPATH\Views\writer\posts.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\writer\\posts.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\writer\\posts.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/posts', [], true)
+ 5 APPPATH\Controllers\writer\Posts.php(33): view('writer/posts', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\Posts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+ERROR - 2025-03-22 05:38:03 --> mysqli_sql_exception: Table 'ci_post2approve.users' doesn't exist in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\ci_2Approval\app\Controllers\AuthController.php(36): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\ci_2Approval\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2025-03-22 05:38:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ci_post2approve.users' doesn't exist
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AuthController.php(36): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:38:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ci_post2approve.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'asdsa\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'asdsa\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AuthController.php(36): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 05:38:04 --> [Caused by] mysqli_sql_exception: Table 'ci_post2approve.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'asdsa\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'asdsa\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'asdsa\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthController.php(36): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 07:53:08 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: admin/posts/asdsa]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\PostsController.php(43): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\PostsController->detail('asdsa')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 07:59:07 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: admin/posts/asdas]
+in APPPATH\Views\admin\post.php on line 8.
+ 1 APPPATH\Views\admin\post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci_2Approval\\app\\Views\\admin\\post.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/post', [], true)
+ 5 APPPATH\Controllers\admin\PostsController.php(47): view('admin/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\PostsController->detail('asdas')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 08:24:21 --> TypeError: CodeIgniter\Validation\StrictRules\Rules::min_length(): Argument #2 ($val) must be of type string, null given, called in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Validation\Validation.php on line 336
+[Method: POST, Route: register/save]
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 281.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\StrictRules\Rules->min_length('asd', null)
+ 2 SYSTEMPATH\Validation\Validation.php(202): CodeIgniter\Validation\Validation->processRules('username', 'username', 'asd', [...], [...], 'username')
+ 3 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AuthController.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerSave()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 08:24:56 --> TypeError: CodeIgniter\Validation\StrictRules\Rules::min_length(): Argument #2 ($val) must be of type string, null given, called in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Validation\Validation.php on line 336
+[Method: POST, Route: register/save]
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 281.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\StrictRules\Rules->min_length('faris', null)
+ 2 SYSTEMPATH\Validation\Validation.php(202): CodeIgniter\Validation\Validation->processRules('username', 'username', 'faris', [...], [...], 'username')
+ 3 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AuthController.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerSave()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 08:27:52 --> TypeError: CodeIgniter\Validation\StrictRules\Rules::min_length(): Argument #2 ($val) must be of type string, null given, called in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Validation\Validation.php on line 336
+[Method: POST, Route: register/save]
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 281.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\StrictRules\Rules->min_length('faris', null)
+ 2 SYSTEMPATH\Validation\Validation.php(202): CodeIgniter\Validation\Validation->processRules('username', 'username', 'faris', [...], [...], 'username')
+ 3 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AuthController.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerSave()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
+CRITICAL - 2025-03-22 08:29:02 --> TypeError: CodeIgniter\Validation\StrictRules\Rules::min_length(): Argument #2 ($val) must be of type string, null given, called in C:\laragon\www\ci_2Approval\vendor\codeigniter4\framework\system\Validation\Validation.php on line 336
+[Method: POST, Route: register/save]
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 281.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\StrictRules\Rules->min_length('faris', null)
+ 2 SYSTEMPATH\Validation\Validation.php(202): CodeIgniter\Validation\Validation->processRules('username', 'username', 'faris', [...], [...], 'username')
+ 3 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AuthController.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerSave()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci_2Approval\\public\\index.php')
