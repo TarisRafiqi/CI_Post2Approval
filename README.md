@@ -1,9 +1,10 @@
 # CI_Post2Approval
 
-Deskripsi
+## Deskripsi
+
 Aplikasi ini merupakan sistem manajemen dan persetujuan postingan yang dibangun menggunakan CodeIgniter 4. Setiap postingan yang dibuat oleh pengguna akan melalui dua tahap persetujuan sebelum dinyatakan disetujui. Proyek ini mengimplementasikan autentikasi pengguna, manajemen role-based access control, serta validasi dan penanganan error. Terdapat tiga role dalam aplikasi ini: Admin, Approver, dan Writer, masing-masing memiliki akses dan tanggung jawab berbeda terhadap alur persetujuan konten.
 
-Fitur-fitur
+## Fitur
 
 1. Authentication & Authorization
 
@@ -24,3 +25,5 @@ Fitur-fitur
 4. Notifikasi
 
    - Flash Message untuk Error & Success
+
+## Preview
