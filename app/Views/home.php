@@ -6,27 +6,40 @@
 
 <section class="hero is-large container">
     <div class="hero-body">
-        <div class="columns">
-            <div class="column">
-                <p class="title is-3 mb-3">Simple Approval App</p>
-                <p class="subtitle is-6" style="text-align: justify;">This project is about post approval where every post
-                    that is inputted will be
-                    approved
-                    by 2 users (admin and approver). Contains CRUD Post, Simple User Setting, Authentication, and
-                    Role-Based
-                    Access Control.</p>
-                <div class="ListIcon is-flex">
-                    <i class="fa-brands fa-laravel"></i>
-                    <img src="<?= base_url('img/BulmaIcon.svg') ?>" alt="Bulma Logo">
+        <p class="title is-3 mb-3">Post 2 Approval</p>
+        <p class="subtitle is-6" style="text-align: justify;">
+            This application is a post management and approval system built using CodeIgniter 4.
+            Every post created by a user will go through two stages of approval before being declared approved.
+            This project implements user authentication, role-based access control management, validation and error handling.
+            There are three roles in this application: Admin, Approver, and Writer, each with different access and responsibilities to the content approval flow.
+        </p>
 
-                </div>
+        <div class="is-flex custom-align">
+            <div class="mr-3">
+                <a href="https://github.com/TarisRafiqi/CI_Post2Approval" class="button" target="_blank">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>GitHub</span>
+                </a>
             </div>
-            <div class="column"></div>
+            <div class="ListIcon">
+                <img src="<?= base_url('img/CodeIgniter_Logo.svg') ?>" alt="CodeIgniter Logo">
+                <img src="<?= base_url('img/BulmaIcon.svg') ?>" alt="Bulma Logo">
+                <i class="fa-brands fa-php" style="color: #000000;"></i>
+            </div>
         </div>
     </div>
 </section>
 
 <style>
+    .custom-align {
+        align-items: center;
+    }
+
+    .ListIcon {
+        display: flex;
+        align-items: center;
+    }
+
     .ListIcon i,
     .ListIcon img {
         font-size: 2rem;
