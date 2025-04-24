@@ -1,0 +1,74 @@
+CRITICAL - 2025-04-24 04:30:07 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: approver/post_approval_detail/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Views\approver\post_approval_detail.php on line 83.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('approver/post_approval_detail', [], true)
+ 4 APPPATH\Controllers\approver\PostsApprovalController.php(68): view('approver/post_approval_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\approver\PostsApprovalController->detail('cara-menerapkan-filter-berdasarkan-user-id')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\approver\PostsApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-24 04:30:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: approver/post_approval_detail/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Views\approver\post_approval_detail.php on line 73.
+ 1 APPPATH\Views\approver\post_approval_detail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('approver/post_approval_detail', [], true)
+ 5 APPPATH\Controllers\approver\PostsApprovalController.php(68): view('approver/post_approval_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\approver\PostsApprovalController->detail('cara-menerapkan-filter-berdasarkan-user-id')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\approver\PostsApprovalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-24 04:31:36 --> ErrorException: Array to string conversion
+[Method: GET, Route: approver/post_approval_detail/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Views\approver\post_approval_detail.php on line 73.
+ 1 APPPATH\Views\approver\post_approval_detail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('approver/post_approval_detail', [], true)
+ 5 APPPATH\Controllers\approver\PostsApprovalController.php(68): view('approver/post_approval_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\approver\PostsApprovalController->detail('cara-menerapkan-filter-berdasarkan-user-id')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\approver\PostsApprovalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-24 04:32:36 --> ErrorException: Array to string conversion
+[Method: GET, Route: approver/post_approval_detail/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Views\approver\post_approval_detail.php on line 73.
+ 1 APPPATH\Views\approver\post_approval_detail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('approver/post_approval_detail', [], true)
+ 5 APPPATH\Controllers\approver\PostsApprovalController.php(68): view('approver/post_approval_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\approver\PostsApprovalController->detail('cara-menerapkan-filter-berdasarkan-user-id')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\approver\PostsApprovalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-24 04:32:38 --> ErrorException: Array to string conversion
+[Method: GET, Route: approver/post_approval_detail/cara-menerapkan-filter-berdasarkan-user-id]
+in APPPATH\Views\approver\post_approval_detail.php on line 73.
+ 1 APPPATH\Views\approver\post_approval_detail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\app\\Views\\approver\\post_approval_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('approver/post_approval_detail', [], true)
+ 5 APPPATH\Controllers\approver\PostsApprovalController.php(68): view('approver/post_approval_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\approver\PostsApprovalController->detail('cara-menerapkan-filter-berdasarkan-user-id')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\approver\PostsApprovalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')

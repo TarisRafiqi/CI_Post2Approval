@@ -16,30 +16,51 @@ class PostsController extends BaseController
         $this->usersModel = new UsersModel();
     }
 
+    // public function index()
+    // {
+    //     $posts = $this->postsModel->findAll();
+
+    //     foreach ($posts as &$post) {
+    //         $oriStatus = $post['post_status'];
+    //         $post['post_status'] = $this->mapStatus($oriStatus);
+    //         $post['progress'] = $this->mapProgress($oriStatus);
+    //     }
+
+    //     $data = [
+    //         'title' => 'Posts',
+    //         'posts' => $posts
+    //     ];
+
+    //     return view('admin/posts', $data);
+    // }
+
     public function index()
     {
-        // $postsModel = new PostModel(); 
-        // $posts = $postsModel->findAll();
         $posts = $this->postsModel->findAll();
 
         foreach ($posts as &$post) {
-            $oriStatus = $post['post_status']; // Simpan nilai asli sebelum diubah ke HTML
-            $post['post_status'] = $this->mapStatus($oriStatus);
-            $post['progress'] = $this->mapProgress($oriStatus); // Gunakan status asli untuk progress
+            $oriStatus = $post['post_status'];
+            $post['status_label'] = strip_tags($this->mapStatus($oriStatus));
+            $post['progress'] = $this->mapProgress($oriStatus);
         }
 
-        $data = [
+        return $this->response->setJSON([
             'title' => 'Posts',
-            'posts' => $posts
-        ];
-
-        return view('admin/posts', $data);
+            'status' => 'success',
+            'data' => $posts,
+        ]);
     }
+
+    public function view()
+    {
+        return view('admin/posts');
+    }
+
 
     public function detail($slug)
     {
         $data = [
-            'title' => 'Detail Post',
+            'title' => 'Post Detail',
             'post' => $this->postsModel->where(['slug' => $slug])->first(),
             'selectedApprover1' => $this->postsModel->where('slug', $slug)->select('uid_approver_1')->first()['uid_approver_1'] ?? '',
             'selectedApprover2' => $this->postsModel->where('slug', $slug)->select('uid_approver_2')->first()['uid_approver_2'] ?? '',
@@ -100,6 +121,7 @@ class PostsController extends BaseController
             } elseif ($status_1 === 'Need Revision') {
                 $newStatus = 'Need Revision 1';
             }
+
             $this->postsModel->where('slug', $slug)->set([
                 'post_status' => $newStatus,
                 'status_1' => $status_1

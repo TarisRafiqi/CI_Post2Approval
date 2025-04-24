@@ -24,7 +24,9 @@ $routes->get('unauthorized', 'AuthController::unauthorized');
 // ------------- Role Admin -------------
 $routes->group('admin', ['filter' => 'role:admin'], function ($routes) {
     // Posts Page
-    $routes->get('posts', 'admin\PostsController::index');
+    // $routes->get('posts', 'admin\PostsController::index');
+    $routes->get('api/posts', 'admin\PostsController::index');
+    $routes->get('posts', 'admin\PostsController::view');
     // PostDetail Page
     $routes->get('posts/(:segment)', 'admin\PostsController::detail/$1');
     // Users Page
@@ -53,6 +55,8 @@ $routes->group('approver', ['filter' => 'role:approver'], function ($routes) {
     $routes->get('my_profile', 'approver\MyProfileController::index');
     // Update User Detail
     $routes->post('updateUserDetail', 'approver\MyProfileController::updateUserDetail');
+    // Update Status Aprooval Detail
+    $routes->post('updateStatus/(:segment)', 'approver\PostsApprovalController::updateStatus/$1');
     // Submit Revision
     $routes->post('posts/action/(:segment)', 'approver\PostsController::submitRevision/$1');
 });

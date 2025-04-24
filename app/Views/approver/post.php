@@ -108,7 +108,6 @@
         </table>
 
         <hr>
-
         <p class="subtitle is-6" style="text-align: justify;"><?= $post['body']; ?></p>
 
     <?php endif; ?>

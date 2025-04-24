@@ -8,7 +8,7 @@
     <h2 class="title is-2">Posts List</h2>
     <hr>
 
-    <table class="table is-striped is-narrow is-hoverable is-fullwidth">
+    <table class="table is-striped is-narrow is-hoverable is-fullwidth" id="posts-table">
         <thead>
             <tr>
                 <th>No</th>
@@ -19,27 +19,39 @@
                 <th class="has-text-centered">Action</th>
             </tr>
         </thead>
-
-        <tbody>
-            <?php $no = 1; ?>
-            <?php foreach ($posts as $post) : ?>
-                <tr>
-                    <td class="is-narrow has-text-centered is-vcentered" scope="row"><?= $no++; ?></td>
-                    <td><?= esc($post['title']); ?></td>
-                    <td class="has-text-centered is-vcentered"><?= esc($post['author']); ?></td>
-                    <td class="has-text-centered is-vcentered"><?= $post['post_status']; ?></td>
-                    <td class="has-text-centered is-vcentered">
-                        <progress class="progress is-link is-small" value="<?= $post['progress']; ?>" max="100">
-                            <?= $post['progress']; ?>%
-                        </progress>
-                    </td>
-                    <td class="is-narrow has-text-centered is-vcentered">
-                        <a class="button is-small" href="/admin/posts/<?= $post['slug']; ?>">Detail</a>
-                    </td>
-                </tr>
-            <?php endforeach; ?>
-        </tbody>
+        <tbody id="posts-body"></tbody>
     </table>
+
+    <script>
+        fetch('/admin/api/posts')
+            .then(res => res.json())
+            .then(res => {
+                console.log(res);
+                const posts = res.data;
+                const tbody = document.getElementById('posts-body');
+                let no = 1;
+                posts.forEach(post => {
+                    const row = `
+        <tr>
+          <td class="has-text-centered">${no++}</td>
+          <td>${post.title}</td>
+          <td class="has-text-centered">${post.author}</td>
+          <td class="has-text-centered">${post.status_label}</td>
+          <td class="has-text-centered">
+            <progress class="progress is-link is-small" value="${post.progress}" max="100">
+              ${post.progress}%
+            </progress>
+          </td>
+          <td class="has-text-centered">
+            <a class="button is-small" href="/admin/posts/${post.slug}">Detail</a>
+          </td>
+        </tr>
+      `;
+                    tbody.innerHTML += row;
+                });
+            });
+    </script>
+
 </div>
 
 <?= $this->endSection(); ?>

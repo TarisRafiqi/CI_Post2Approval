@@ -44,7 +44,55 @@ class PostsApprovalController extends BaseController
 
     public function detail($slug)
     {
-        return view('approver/post_approval_detail');
+        $post = $this->postsModel->where(['slug' => $slug])->first();
+
+        if (empty($post)) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Post ' . $slug . ' not found.');
+        }
+
+        $approver1 = $this->usersModel->getApproversName($post['uid_approver_1']);
+        $approver2 = $this->usersModel->getApproversName($post['uid_approver_2']);
+        $post['status_2'] = $this->approverMapStatus($post['status_2']);
+
+        $data = [
+            'title' => 'Post Detail',
+            'post' => $post,
+            'approver1' => $approver1['name'] ?? 'Waiting for approval',
+            'approver2' => $approver2['name'] ?? 'Waiting for approval',
+
+        ];
+
+        // dd($data);
+
+        return view('approver/post_approval_detail', $data);
+    }
+
+    public function updateStatus($slug)
+    {
+        $status_1 = $this->request->getPost('status_1');
+
+        // Ambil data post berdasarkan slug
+        $post = $this->postsModel->where('slug', $slug)->first();
+
+        if (!$post) {
+            return redirect()->to(base_url('approver/post_approval_detail/' . $slug))->with('error', 'Post not found.');
+        }
+
+        // Logika perubahan status berdasarkan Approver 1
+        if ($status_1 !== null && $post['post_status'] === 'Waiting Approval 1') {
+            if ($status_1 === 'Approved') {
+                $newStatus = 'Waiting Approval 2';
+            } elseif ($status_1 === 'Need Revision') {
+                $newStatus = 'Need Revision 1';
+            }
+
+            $this->postsModel->where('slug', $slug)->set([
+                'post_status' => $newStatus,
+                'status_1' => $status_1
+            ])->update();
+        }
+
+        return redirect()->to(base_url('approver/post_approval_detail/' . $slug))->with('success', 'Status updated successfully.');
     }
 
     private function mapStatus($status)
