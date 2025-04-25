@@ -69,12 +69,12 @@ $routes->group('writer', ['filter' => 'role:writer'], function ($routes) {
     $routes->get('posts/(:segment)', 'writer\PostsController::detail/$1');
     // Post Form Page
     $routes->get('post_form', 'writer\PostFormController::postForm');
-    // My Profile Page
-    $routes->get('my_profile', 'writer\MyProfileController::index');
     // Post Form
     $routes->post('post_form/action', 'writer\PostFormController::postFormAction');
     // Submit Revision
     $routes->post('posts/action/(:segment)', 'writer\PostsController::submitRevision/$1');
     // Update User Detail
     $routes->post('updateUserDetail', 'writer\MyProfileController::updateUserDetail');
+    // My Profile Page
+    $routes->get('my_profile', 'writer\MyProfileController::index');
 });

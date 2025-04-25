@@ -1,0 +1,117 @@
+CRITICAL - 2025-04-25 10:18:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:18:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/myProfile.php"
+[Method: GET, Route: writer/myProfile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/myProfile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/myProfile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/myProfile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')
+CRITICAL - 2025-04-25 10:25:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "writer/my-profile.php"
+[Method: GET, Route: writer/my-profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('writer/my-profile.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('writer/my-profile', [], true)
+ 3 APPPATH\Controllers\writer\MyProfileController.php(28): view('writer/my-profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\writer\MyProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\writer\MyProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\github\\CI_Post2Approval\\public\\index.php')

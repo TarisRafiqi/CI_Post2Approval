@@ -1,11 +1,11 @@
 <?= $this->extend('layout/template'); ?>
 
-<?= $this->section('title'); ?>Posts Approval<?= $this->endSection(); ?>
+<?= $this->section('title'); ?>Approvals<?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
 
 <div class="container">
-    <h2 class="title is-2">Posts Approval List</h2>
+    <h2 class="title is-2">Approvals</h2>
     <hr>
 
     <table class="table is-striped is-narrow is-hoverable is-fullwidth">

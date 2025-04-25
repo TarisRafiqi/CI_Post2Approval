@@ -1,11 +1,11 @@
 <?= $this->extend('layout/template'); ?>
 
-<?= $this->section('title'); ?>Posts List<?= $this->endSection(); ?>
+<?= $this->section('title'); ?>My Posts<?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
 
 <div class="container">
-    <h2 class="title is-2">Posts List</h2>
+    <h2 class="title is-2">My Posts</h2>
     <hr>
 
     <table class="table is-striped is-narrow is-hoverable is-fullwidth">
